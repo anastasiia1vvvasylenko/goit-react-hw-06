@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(2, 2, 2);
+  padding: 10px;
+  border-radius: 4px;
+  margin: 15px;
+  width: 287px;
+}
+
+.inputName {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: rgb(2, 2, 2);
+}
+
+.field {
+  margin-bottom: 0;
+}
+
+.err {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: rgb(204, 8, 8);
+}
+
+.btn {
+  display: flex;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 8px;
+  width: 100px;
+  height: 30px;
+  background-color: #fafafa;
+  border: 1px solid rgb(2, 2, 2);
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  justify-content: center;
+  align-items: center;
+  color: rgb(2, 2, 2);
+  margin: auto;
+  margin-top: 6px;
+}
